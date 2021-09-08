@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/milenahristovaangelkova/currency-rates-converter/static/css/main.71b83148.chunk.css",
+    "main.js": "/milenahristovaangelkova/currency-rates-converter/static/js/main.376e5444.chunk.js",
+    "main.js.map": "/milenahristovaangelkova/currency-rates-converter/static/js/main.376e5444.chunk.js.map",
+    "runtime-main.js": "/milenahristovaangelkova/currency-rates-converter/static/js/runtime-main.13df7f65.js",
+    "runtime-main.js.map": "/milenahristovaangelkova/currency-rates-converter/static/js/runtime-main.13df7f65.js.map",
+    "static/js/2.9153c38f.chunk.js": "/milenahristovaangelkova/currency-rates-converter/static/js/2.9153c38f.chunk.js",
+    "static/js/2.9153c38f.chunk.js.map": "/milenahristovaangelkova/currency-rates-converter/static/js/2.9153c38f.chunk.js.map",
+    "static/js/3.8607c38d.chunk.js": "/milenahristovaangelkova/currency-rates-converter/static/js/3.8607c38d.chunk.js",
+    "static/js/3.8607c38d.chunk.js.map": "/milenahristovaangelkova/currency-rates-converter/static/js/3.8607c38d.chunk.js.map",
+    "index.html": "/milenahristovaangelkova/currency-rates-converter/index.html",
+    "static/css/main.71b83148.chunk.css.map": "/milenahristovaangelkova/currency-rates-converter/static/css/main.71b83148.chunk.css.map",
+    "static/js/2.9153c38f.chunk.js.LICENSE.txt": "/milenahristovaangelkova/currency-rates-converter/static/js/2.9153c38f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13df7f65.js",
+    "static/js/2.9153c38f.chunk.js",
+    "static/css/main.71b83148.chunk.css",
+    "static/js/main.376e5444.chunk.js"
+  ]
+}
