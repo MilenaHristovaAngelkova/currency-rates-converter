@@ -2,9 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-It is a basic app that supplies conversion rates information. 
+It is a basic app that supplies conversion rates information, based on the selected currency.
 Rates are obtained from the https://github.com/fawazahmed0/currency-api service using the latest rates for the selected currency rounded up to 1 digit after the decimal point. 
 Rates from the selected currency are used directly, whereas rates to the selected currency are calculated by 1 / the respective rate for the other currency (i. e., if the USD to CAD rate is 1 USD for 1.3 CAD, the USD-CAD rate is 1.3 and the CAD-USD rate is 1/1.3 = 0.8).
+Localstorage is used to hold the previously viewed data for the respective currency if the user accesses the app again from the same browser during the same day.
 
 You can see the app [here](https://milenahristovaangelkova.github.io/currency-rates-converter/).
 
