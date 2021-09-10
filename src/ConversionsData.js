@@ -16,9 +16,9 @@ const ConversionsData = (props) => {
     Object.entries(outputConversions).sort((a, b) => {
         return a[1] - b[1];
     }).map(entry => {
-        if (entry[1] < 1) {
+        if (entry[1].toFixed(1) < 1) {
            return group1[entry[0]] = entry[1];
-        } else if (entry[1] >= 1 && entry[1] < 1.5) {
+        } else if (entry[1].toFixed(1) >= 1 && entry[1].toFixed(1) < 1.5) {
            return group2[entry[0]] = entry[1];
         } else {
            return group3[entry[0]] = entry[1];
@@ -30,7 +30,7 @@ const ConversionsData = (props) => {
             <table>
                 <thead>
                     <tr className="table-heading">
-                        <th colSpan="2">{`Exchange Rates < 1`}</th>
+                        <th colSpan="2">Exchange Rates under 1</th>
                     </tr>
                     <tr className="col-headings">
                         <th>Currencies</th>
@@ -60,7 +60,7 @@ const ConversionsData = (props) => {
             <table>
                 <thead>
                     <tr className="table-heading">
-                        <th colSpan="2">Exchange Rates between 1 and 1.5</th>
+                        <th colSpan="2">Exchange Rates between 1 and 1.4</th>
                     </tr>
                     <tr className="col-headings">
                         <th>Currencies</th>
@@ -90,7 +90,7 @@ const ConversionsData = (props) => {
             <table>
                 <thead>
                     <tr className="table-heading">
-                        <th colSpan="2">{`Exchange Rates > 1.5`}</th>
+                        <th colSpan="2">Exchange Rates from 1.5</th>
                     </tr>
                     <tr className="col-headings">
                         <th>Currencies</th>

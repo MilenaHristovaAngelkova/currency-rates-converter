@@ -31,6 +31,13 @@ h1 {
   padding: 2vh 0;
 }
 
+.state-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 form {
   margin: 1vh 0;
   text-align: center;
