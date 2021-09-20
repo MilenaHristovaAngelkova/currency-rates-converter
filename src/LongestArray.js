@@ -1,15 +1,26 @@
 const LongestArray = (props) => {
     const longestArr = () => {
-        let currRates = Object.values(props.outputConversions).sort();
-        currRates.forEach(rate => {
-            for (let i = currRates.length - 1; i >= 0; i--) {
-                if (Math.abs(currRates[i].toFixed(1) - rate.toFixed(1)) >= 0.6) {
-                    currRates.pop();
+        let currRates = Object.values(props.outputConversions);
+        currRates.sort();
+        let max = 0;
+
+        for (let i = 0; i < currRates.length; i++) {
+            let count = 1;
+            for (let j = i + 1; j < currRates.length; j++) {
+                if ((currRates[j].toFixed(1) - currRates[i].toFixed(1)) <= 0.5) {
+                    count++;
+
+                    if (count > max) {
+                        max = count;
+                    }
+                } else {
+                    count = 1;
+                    break;
                 }
             }
-        })
+        }
 
-        return currRates.length;
+        return max;
     }
 
     return (
